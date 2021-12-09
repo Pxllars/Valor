@@ -1,0 +1,26 @@
+{
+  "name": "valorbot",
+  "version": "1.0.0",
+  "description": "ValorBot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pxllars",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.4.0",
+    "fs": "^0.0.1-security",
+    "images-scraper": "^6.4.0",
+    "minecraft-server-util": "^4.1.2",
+    "ms": "^2.1.3",
+    "opusscript": "^0.0.8",
+    "request": "^2.88.2",
+    "yt-search": "^2.10.2",
+    "ytdl-core": "^4.9.1"
+  }
+}
