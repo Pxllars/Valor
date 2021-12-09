@@ -117,6 +117,8 @@ client.on('message', message => {
         client.commands.get('run').execute(message, args, Discord);
     } else if (command === 'link') {
         client.commands.get('link').execute(message, args, Discord);
+    } else if (command === 'roles') {
+        client.commands.get('roles').execute(message, args, Discord);
     }
 });
 
